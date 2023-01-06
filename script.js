@@ -169,7 +169,7 @@ function headerFunction(val) {
     }
   }
   document.getElementById("Card_heading_separately").innerText = card_header;
-  document.getElementById("Card_heading_separately").style.display = "block";
+  document.getElementById("Card_heading_separately").style.display = "none";
   title_flag = true;
 }
 
