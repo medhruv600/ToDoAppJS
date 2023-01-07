@@ -112,7 +112,7 @@ body {
   font-size: 1.5rem;
   text-align: center;
   margin: auto;
-  overflow: auto;
+  overflow-x: hidden;
   border-bottom: 2px solid red;
   cursor: pointer;
 }
@@ -218,6 +218,7 @@ body {
   cursor: pointer;
 }
 .innerButton {
+  overflow-wrap: break-word;
   font-size: 18px;
   font-weight: bold;
   color: gray;
